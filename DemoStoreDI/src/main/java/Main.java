@@ -10,10 +10,17 @@ public class Main {
         //创建bean实例
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring-config.xml");
         Category category=applicationContext.getBean(Category.class);
+
+        //输出默认值
+        System.out.println(category.toString());
+
         //设置属性
         category.setCateId(1);
         category.setCateName("书籍");
-        //显示结果
         System.out.println(category.toString());
+
+        //运行结果：
+//        商品类型 id=99,name=其他
+//        商品类型 id=1,name=书籍
     }
 }

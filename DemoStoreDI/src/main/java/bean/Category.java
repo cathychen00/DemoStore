@@ -23,6 +23,11 @@ public class Category {
         this.cateName = cateName;
     }
 
+    public Category(int cateId,String cateName){
+        this.cateId=cateId;
+        this.cateName=cateName;
+    }
+
     @Override
     public String toString() {
         return "商品类型 id="+this.cateId+",name="+this.cateName;
