@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DemoStoreData" />
+        <module name="DemoStoreDI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DemoStoreData" target="1.5" />
+      <module name="DemoStoreDI" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
