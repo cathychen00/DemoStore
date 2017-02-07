@@ -31,4 +31,16 @@ public class Product {
     public void setProductCategory(Category productCategory) {
         this.productCategory = productCategory;
     }
+
+    public Product(int productId,String productName,Category category){
+        this.productId=productId;
+        this.productName=productName;
+        this.productCategory=category;
+    }
+
+
+    @Override
+    public String toString() {
+        return " 商品 id="+this.productId+";name="+this.productName+this.productCategory.toString();
+    }
 }

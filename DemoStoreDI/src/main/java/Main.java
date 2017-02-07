@@ -1,4 +1,5 @@
 import bean.Category;
+import bean.Product;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -7,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
     public static void main(String[] args){
-        //创建bean实例
+        //创建Category bean实例
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring-config.xml");
         Category category=applicationContext.getBean(Category.class);
 
@@ -22,5 +23,9 @@ public class Main {
         //运行结果：
 //        商品类型 id=99,name=其他
 //        商品类型 id=1,name=书籍
+
+
+        Product product=applicationContext.getBean(Product.class);
+        System.out.println(product.toString());
     }
 }

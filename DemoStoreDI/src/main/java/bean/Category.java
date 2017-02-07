@@ -30,6 +30,6 @@ public class Category {
 
     @Override
     public String toString() {
-        return "商品类型 id="+this.cateId+",name="+this.cateName;
+        return " 商品类型 id="+this.cateId+",name="+this.cateName;
     }
 }
