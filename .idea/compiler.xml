@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DemoStoreData" />
         <module name="DemoStoreDI" />
-        <module name="DemoStoreWeb1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
