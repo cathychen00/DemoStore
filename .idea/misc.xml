@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/DemoStoreWeb1" />
+    <file type="web" url="file://$PROJECT_DIR$/DemoStoreWeb2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -9,6 +10,7 @@
         <option value="$PROJECT_DIR$/DemoStoreData/pom.xml" />
         <option value="$PROJECT_DIR$/DemoStoreDI/pom.xml" />
         <option value="$PROJECT_DIR$/DemoStoreWeb1/pom.xml" />
+        <option value="$PROJECT_DIR$/DemoStoreWeb2/pom.xml" />
       </list>
     </option>
   </component>
